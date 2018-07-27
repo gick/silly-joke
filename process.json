@@ -1,0 +1,17 @@
+{
+    "apps" : [{
+       "name" : "funpsy",
+       "script" : "index.js"
+    }],
+    "deploy" : {
+      "production" : {
+        "user" : "root",
+        "host" : ["51.15.206.93"],
+        "ref"  : "origin/master",
+        "repo" : "https://github.com/gick/silly-joke.git",
+        "path" : "/var/www/joke",
+        "post-deploy" : "npm install;"
+       }
+    }
+ }
+ 

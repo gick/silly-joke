@@ -1,0 +1,25 @@
+{
+  "name": "bootstra.386",
+  "version": "1.0.0",
+  "description": "<pre>      ____  ____  ____  _____________________  ___    ____        __   _____ ____  _____     / __ )/ __ \\/ __ \\/_  __/ ___/_  __/ __ \\/   |  / __ \\     _/_/  |__  /( __ )/ ___/    / __  / / / / / / / / /  \\__ \\ / / / /_/ / /| | / /_/ /   _/_/     /_ &lt;/ __  / __ \\    / /_/ / /_/ / /_/ / / /  ___/ // / / _, _/ ___ |/ ____/  _/_/     ___/ / /_/ / /_/ /   /_____/\\____/\\____/ /_/  /____//_/ /_/ |_/_/  |_/_/      /_/      /____/\\____/\\____/",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gick/silly-joke.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gick/silly-joke/issues"
+  },
+  "homepage": "https://github.com/gick/silly-joke#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
