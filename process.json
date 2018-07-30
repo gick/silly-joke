@@ -5,6 +5,7 @@
     }],
     "deploy" : {
       "production" : {
+        "key":"/home/gick/.ssh/gick.key.pub",
         "user" : "root",
         "host" : ["51.15.206.93"],
         "ref"  : "origin/master",
@@ -14,4 +15,3 @@
        }
     }
  }
- 
