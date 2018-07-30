@@ -7,10 +7,9 @@
       "production" : {
         "user" : "root",
         "host" : ["51.15.206.93"],
-        "ref"  : "origin/gh-pages",
+        "ref"  : "origin/master",
         "repo" : "git@github.com:gick/silly-joke",
         "path" : "/var/www/joke",
-        "post-deploy" : "npm install;"
        }
     }
  }
