@@ -30,7 +30,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke',
       path : '/var/www/production',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env productio'
     },
     dev : {
       user : 'root',
