@@ -25,7 +25,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      key : '/home/gick/.ssh/gick.key.pub'
+      key : '/home/gick/.ssh/gick.key.pub',
       host : '51.15.135.233',
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke.git',
@@ -34,7 +34,7 @@ module.exports = {
     },
     dev : {
       user : 'root',
-      key : '/home/gick/.ssh/gick.key.pub'
+      key : '/home/gick/.ssh/gick.key.pub',
       host : '51.15.135.233',
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke.git',
