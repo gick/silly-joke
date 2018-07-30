@@ -5,11 +5,10 @@
     }],
     "deploy" : {
       "production" : {
-        "key":"/home/gick/.ssh/gick.key.pub",
         "user" : "root",
         "host" : ["51.15.206.93"],
         "ref"  : "origin/master",
-        "repo" : "https://github.com/gick/silly-joke.git",
+        "repo" : "git@github.com:gick/silly-joke",
         "path" : "/var/www/joke",
         "post-deploy" : "npm install;"
        }
