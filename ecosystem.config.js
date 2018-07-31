@@ -35,7 +35,6 @@ module.exports = {
     dev : {
       user : 'gick',
       key : '/home/gick/.ssh/gickjessie_rsa',
-
       host : '51.15.135.233',
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke.git',
