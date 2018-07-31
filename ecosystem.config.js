@@ -24,21 +24,22 @@ module.exports = {
    */
   deploy : {
     production : {
-      user : 'root',
-      key : '/home/gick/.ssh/gick.key.pub',
+      user : 'gick',
+      key : '/home/gick/.ssh/gickjessie_rsa',
       host : '51.15.135.233',
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke.git',
-      path : '/var/www/production',
+      path : '/home/gick/production',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     dev : {
-      user : 'root',
-      key : '/home/gick/.ssh/gick.key.pub',
+      user : 'gick',
+      key : '/home/gick/.ssh/gickjessie_rsa',
+
       host : '51.15.135.233',
       ref  : 'origin/master',
       repo : 'git@github.com:gick/silly-joke.git',
-      path : '/var/www/production',
+      path : '/home/gick/dev',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
       env  : {
         NODE_ENV: 'dev'
